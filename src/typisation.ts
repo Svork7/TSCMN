@@ -1,7 +1,7 @@
 // numbers
 let x: number = 10
 // bigInt, должны быть целыми
-let y: bigint = 1234n
+//let y: bigint = 1234n
 // string
 let str1: string = 'Hello world'
 // symbol
