@@ -70,3 +70,25 @@ function slice(str: string, start: number, end?: number): string {
 
   return newStr
 }
+
+//Алиасы
+type MyBoolean = false | true
+type Pair = [string, string]
+type Pairs = Pair[]
+
+type DiffCar = {
+  wheels: 4
+  brand: 'BMW'
+  type: 'Sedan'
+  isNew: false
+  [key: string]: unknown
+}
+
+//unions - можно использовать одно из указанных значений
+type Status = 'ok' | 'loading' | 'error'
+
+const x2: Status = 'loading'
+
+function printId(id: number | string) {
+  console.log(id.toUpperCase())
+}

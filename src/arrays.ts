@@ -25,3 +25,10 @@ function printArr(arr: unknown[]): void {
 }
 
 printArr([1, '2'])
+
+//Кортежи
+
+const pairs2: [string, string][] = [
+  ['key', 'value'],
+  ['key2', 'value2'],
+]
